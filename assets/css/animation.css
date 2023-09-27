@@ -1,0 +1,24 @@
+.local{
+    animation: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+    0%{
+        color: green;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: aqua;
+    }
+    75%{
+        color: blueviolet;
+    }
+    100%{
+        color: coral;
+
+
+    }
+}
